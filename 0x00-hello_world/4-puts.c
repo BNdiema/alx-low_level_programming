@@ -1,5 +1,3 @@
-#!/bin/bash
-
 #include <stdio.h>
 /* Entry point*/
 int main (void)
