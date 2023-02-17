@@ -13,3 +13,6 @@ Writing a script that generates the assembly code of a C code and save it in an 
 
 ### Task 3 NAME ###
 Write a script that compiles a C file and creates an executable named cisfun.
+
+#### Task 4 PUTS ####
+Write a C program that prints exactly "Programming is like building a multilingual puzzle", followed by a new line. Use the function puts
