@@ -1,7 +1,6 @@
 #include <stdio.h>
-/* Main Entry point*/
-int main(void)
+int main(void)/* Main Entry point*/
 {
-   puts("\"Programming is like building a multilingual puzzle");
-   return (0);
+ puts("\"Programming is like building a multilingual puzzle");
+ return (0);
 }
