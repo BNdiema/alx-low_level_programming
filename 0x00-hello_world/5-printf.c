@@ -1,13 +1,8 @@
 #include <stdio.h>
-/**
- * 
- * Entry point
- *
- */
-int main(void)
+int main(void) /* Entry point*/
 {
 	{
-	  printf("with proper grammer, but the outcome is a piece of art,");
+	  printf("with proper grammer, but the outcome is a piece of art,\n");
 	}
 	return (0);
 }
