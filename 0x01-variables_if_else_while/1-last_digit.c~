@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <time.h>
+
+int main(void)
+
+ int n;
+ int lastDigit;
+
+if (lastDigit > 5)
+{
+  printf("Enter a digit");
+  scanf("%d", &lastDigit);
+  printf("Last digit of %d is %d is greater than 5", n, lastdigit);
+}
