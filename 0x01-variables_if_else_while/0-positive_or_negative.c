@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <time.h>
 
-int main(void)/* Main entry point */
+int main(void)
 {
-int n;      /* Variable declaration */
+int n;
 n = 0;
-scanf("%d", &n); /* The imput is put in n after a number is typed */
+scanf("%d", &n); 
 if (n < 0);
 {
-printf("%d is greater than 0: is positive"); /* Prints number enterd + statement */
+printf("%d is greater than 0: is positive");
 }
 scanf("%d", &n);
-if (n == 0)
+else if (n == 0)
 {
 printf("%d is 0: is zero");
 }
