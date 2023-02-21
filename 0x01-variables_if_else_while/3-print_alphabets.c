@@ -2,12 +2,12 @@
 
 int main(void)
 {
-int ch;
-for (ch = "a"; ch <= z "z"; ch++)
+char a;
+for (a = "a"; a <= z "z"; ch++)
 putchar(ch);
 putchar("\n");
-for (ch = "A"; ch = "Z"; ch++)
-putchar(ch);
+for (a = "A"; a = "Z"; ch++)
+putchar(a);
 putchar("\n");
 return (0);
 }
