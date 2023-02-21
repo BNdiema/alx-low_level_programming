@@ -4,7 +4,6 @@
 int main(void)
 {
 int n;
-n = 0;
 if (n < 0)
 {
 printf("%d is greater than 0: is positive\n", n);
