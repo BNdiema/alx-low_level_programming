@@ -9,8 +9,8 @@
 int main(void)
 {
 int n;
-for (n = 0; n = 9; n++)
-printf((n % 10) + '0');
+for (n = 0; n <= 9; n++)
+  printf((%d % 10) + '0',n);
 printf("\n");
 return (0);
 }
