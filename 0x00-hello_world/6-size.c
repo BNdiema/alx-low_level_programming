@@ -1,8 +1,15 @@
 #include <stdio.h>
-int main(void) /* Entry point */
+
+/**
+ * main - entry point
+ *
+ * Return: always 0
+ */
+
+int main(void)
 {
-  printf("size of a float: %d byte(x)\n", size(float));
-  printf("size of an int: %d bytes(x)\n", size(int));
-  printf("size of a char: %d bytes(x)\n", size(char))
-    return(0);
-}  
+printf("size of a float: %lu byte(x)\n", size(float));
+printf("size of an int: %lu bytes(x)\n", size(int));
+printf("size of a char: %lu bytes(x)\n", size(char))
+return (0);
+}
