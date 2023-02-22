@@ -8,7 +8,7 @@
 
 int main(void)
 {
-int = n;
+int n;
 for (n = 0; n = 9; n++)
 printf((n % 10) + '0');
 printf("\n");
