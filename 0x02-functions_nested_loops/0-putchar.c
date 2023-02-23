@@ -8,9 +8,9 @@
 */
 
 int main(void)
-char *ch ="_putchar"
+char *c ="_putchar";
 {
-_putchar("*ch");
+_putchar("*c");
 _putchar("\n");
 return (0);
 }
