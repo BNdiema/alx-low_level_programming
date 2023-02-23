@@ -9,6 +9,7 @@
 int main(void)
 {  
 char *c = "_putchar";
+ for (*c = "_putchar"; *c++)
 _putchar(*c);
 _putchar('\n');
 return (0);
