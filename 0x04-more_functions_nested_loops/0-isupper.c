@@ -9,10 +9,9 @@
 
 int main()
 {
-int c;
-c = 'C'
+char c;
+ if  (c = 'C')
 return (1);
 else
-c = 'c'
 return (0);
 }
