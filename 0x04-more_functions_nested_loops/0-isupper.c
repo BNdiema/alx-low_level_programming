@@ -6,11 +6,13 @@
  *
  *Rerutn: aways 0
  */
+
 int main()
 {
 int c;
-for (c >= 'A'; c <= 'Z')
+c = 'C'
 return (1);
 else
+c = 'c'
 return (0);
 }
