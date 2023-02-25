@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - function that draws a diagonal line
- * @n: number of lines to be printed "\"
+ * @n: number of lines to be printed using "\"
  * Return: draw diagonal line
  */
 
