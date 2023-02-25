@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet_x10 - prints 10 times the alphabet in lowercase +new line
  *
- * Return: always 0
+ * Return: a-z 10 times
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
@@ -18,5 +18,4 @@ while (ch <= 10)
 {
 _putchar('\n');
 }
-return (0);
 }
