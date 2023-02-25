@@ -2,15 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - main entry point
- *
- *Rerutn: aways 0
+ * _isupper - checks for uppercase character
+ * @c: character
+ * Return: 1 or 0
  */
 
-int main()
-{
-char c;
- if  (c = 'C')
+int _isupper(int c)
+{ 
+if (c == 'C')
 return (1);
 else
 return (0);
