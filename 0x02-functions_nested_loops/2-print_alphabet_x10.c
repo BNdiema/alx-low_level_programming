@@ -13,9 +13,7 @@ char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
-}
-while (ch++ <= 10)
-{
+while (ch <= 10)
 _putchar('\n');
 }
 }
