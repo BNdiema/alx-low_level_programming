@@ -1,24 +1,15 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * main - entry point
- *
- * Return: always 0
+ * _isalpha - checks for alphabetic character
+ *@c: veriable
+ * Return: 1 if c is a letter upper or lowercase
  */
 
-int main(void)
+int _isalpha(int c)
 {
-int c;
-if (c >= 'a'; &&c <= 'z')
-{
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 _putchar(1);
-}
-else if (c >= 'A'; &&c <= 'Z')
-_putchar(1);
-else
-{
-_putchar(0);
-}
 return (0);
 }
