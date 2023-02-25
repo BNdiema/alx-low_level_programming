@@ -1,16 +1,16 @@
-#include <stdio,h>
+#include "main.h"
+
 /**
- * main - entry point
- *
- * Return: always 0
+ * _islower - checks for te lowest character
+ * @c: variable
+ * Return: c if lowest otherwise rturn 0
  */
 
-int main(void)
+int _islower(int c)
 {
-char c;
-if (c >= 'a'; &&c <= 'z')
+if (c >= 'a' &&c <= 'z')
 {
-_putchar('1');
+_putchar(1);
 }
 else
 {
