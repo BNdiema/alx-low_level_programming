@@ -2,7 +2,7 @@
 
 /**
  * print_line - function that draws a straight line
- *
+ * @n: no of lines to be printed "_"
  * Return: draw line
  */
 
