@@ -14,6 +14,6 @@ _putchar(1);
 }
 else
 {
-return(0);
+_putchar(0);
 }
 }
