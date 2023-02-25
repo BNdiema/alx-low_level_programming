@@ -15,5 +15,4 @@ _putchar(1);
 else
 {
 _putchar(0);
-
 }
