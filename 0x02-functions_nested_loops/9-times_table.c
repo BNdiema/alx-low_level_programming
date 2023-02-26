@@ -8,7 +8,8 @@
 void times_table(void)
 {
 int num;
-int table = num * 9;
+int table;
 for (num = 0; num < 10; num++)
+table = num * 9;
 _putchar(table);
 }
