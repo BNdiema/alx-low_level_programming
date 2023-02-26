@@ -8,6 +8,7 @@
 
 int print_last_digit(int i)
 {
-while (i % 10)
+int n;
+while (n = i % 10)
 return (i);
 }
