@@ -12,7 +12,7 @@ int num;
 int table;
 for (O = 0; O <= 9; O++)
 {
-_putchar(0);
+_putchar('0');
 for (num = 1; num <= 9; num++)
 {
 _putchar(',');
