@@ -7,9 +7,23 @@
 
 void times_table(void)
 {
+int O;
 int num;
 int table;
-for (num = 0; num < 10; num++)
-table = num * 9;
+for (O = 0; O < 10; O++)
+{
+_putchar(0);
+for (num = 1; num < 10; num++)
+{
+_putchar(',');
+_putchar(' ');
+table = 0 * num;
+if (table < 10)
+_putchar (' ');
+else
+_putchar((table / 10) + '0');
+_putchar((table % 10) + '0');
+}
 _putchar(table);
+}
 }
