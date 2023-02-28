@@ -9,9 +9,8 @@
 
 int _strlen(char *s)
 {
-int lenth = 0;
-for (*s = 0; *s != '\0'; ++*s)
-lenth ++;
+char l;
+for (*s = 0; l[*s] != '\0'; ++*s)
 _putchar(*s);
 return (0);
 }
