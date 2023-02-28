@@ -9,7 +9,7 @@
 
 int _strlen(char *s)
 {
-for (*s = 0; *s != '\0'; ++*s)
+for (*s = 0; *s != '\0'; *s++)
 _putchar(*s);
 return (0);
 }
