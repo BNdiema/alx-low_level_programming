@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_every_other - prints every other character of a string
+ * print_every_other - prints every other character of a string starting with 1st char
  * @s: string to print
  * Return: void
  */
 
-void print_every_other(char *s)
+void puts2(char *str)
 {
 int i;
 for (i = 0; s[i] != '\0'; i += 2)
