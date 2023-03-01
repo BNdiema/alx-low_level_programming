@@ -16,7 +16,7 @@ l++;
 }
  for (r = l -1; r >= 0; r--)
 {
-_putchar(s[l]);
+_putchar(s[--l]);
 }
 _putchar('\n');
 }
