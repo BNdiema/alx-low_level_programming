@@ -9,12 +9,11 @@
 void rev_string(char *s)
 {
 int l = 0;
-int r;
 while (s[l] != '\0')
 {
 l++;
 }
-while (l > 0 -1;)
+while (l > 0 -1)
 {
 _putchar(s[--l]);
 }
