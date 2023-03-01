@@ -15,6 +15,7 @@ l++;
 }
 while (l > 0)
 {
-_putchar(s[--l]);
+_putchar(s[--l] -1);
 }
+_putchar('\n');
 }
