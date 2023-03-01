@@ -14,7 +14,7 @@ while (s[l] != '\0')
 {
 l++;
 }
- for (r = l -1; r >= 0; r--)
+while (l > 0 -1;)
 {
 _putchar(s[--l]);
 }
