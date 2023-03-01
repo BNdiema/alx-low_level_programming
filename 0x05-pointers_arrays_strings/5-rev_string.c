@@ -13,7 +13,7 @@ while (s[l] != '\0')
 {
 l++;
 }
-while (l >= 0)
+while (l > 1)
 {
 _putchar(s[l--]);
 }
