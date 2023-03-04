@@ -24,7 +24,7 @@ else
 {
 capp = (0);
 }
-*l++;
+l++;
 }
 return (w);
 }
