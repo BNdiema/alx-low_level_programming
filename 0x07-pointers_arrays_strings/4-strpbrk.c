@@ -10,16 +10,15 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-char *p = *accept;
 while (*s != '\0')
 {
-while (*p != '\0')
+while (*accept != '\0')
 {
-if (*s == *p)
+if (*s == *accept)
 {
 return (s);
 }
-p++;
+accept++;
 }
 s++;
 }
