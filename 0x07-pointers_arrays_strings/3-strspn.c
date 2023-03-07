@@ -22,10 +22,10 @@ if (s[i] == accept[j])
 c++;
 break;
 }
+}
 if (accept[j] == '\0')
 {
 return (c);
-}
 }
 }
 return (c);
