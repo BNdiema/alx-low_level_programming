@@ -16,7 +16,7 @@ return (-1);
 if (n == 1 || n == 0)
 return (n);
 }
-while (s <= n)
+if (s <= n)
 {
 i++;
 s = (i << 1) + 1;
