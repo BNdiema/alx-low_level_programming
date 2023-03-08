@@ -12,6 +12,5 @@ if (*s == '\0')
 {
 return (0);
 }
-_putchar(*s);
-_strlen_recursion(s + 1);
+return 1 + _strlen_recursion(s + 1);
 }
