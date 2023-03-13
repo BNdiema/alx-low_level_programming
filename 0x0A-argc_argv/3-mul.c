@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - multiplies two numbers.
+ * @argc: int, number of arguments
+ * @argv: char, argumets passed
+ * Return: result from main or error
+ */
+
+int main(int argc, char *argv[])
+{
+int x = atoi(argv[1]);
+int y = atoi(argv[2]);
+int mult;
+mult = x * y;
+if (argc != 3)
+{
+printf("Error\n");
+return (1);
+}
+else
+{
+printf("%d\n", mult);
+}
+return (0);
+}
