@@ -2,6 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-printf("%s\n", *argv[0]);
+printf("%s\n", .\/\ __FILE__);
 return (0);
 }
