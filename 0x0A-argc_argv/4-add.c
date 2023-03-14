@@ -15,7 +15,7 @@ int sum = 0;
 for (i = 1; i < argc; i++)
 {
 sum += atoi(argv[i]);
-} 
+}
 printf("%d\n", sum);
 return (0);
 if (argc == '\0')
