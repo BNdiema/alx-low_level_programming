@@ -21,21 +21,13 @@ for (str_len2 = 0; s2[str_len2] != '\0'; str_len2++)
 new_len = str_len1 + str_len2;
 newstr = malloc((new_len + 1) * sizeof(char));
 if (newstr == NULL)
-{
 return (NULL);
-}
 while (newstr == NULL)
-}
 newstr = "";
-}
 for (i = 0; i < str_len1; i++)
-{
 newstr[i] = s1[i];
-}
 for (i = 0; i < str_len2; i++)
-{
 newstr[str_len1 + i] = s2[i];
-}
 newstr[new_len] = '\0';
 return (newstr);
 }
