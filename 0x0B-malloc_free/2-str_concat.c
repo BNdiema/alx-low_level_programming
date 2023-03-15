@@ -16,14 +16,16 @@ unsigned int str_len2 = 0;
 unsigned int new_len = 0;
 char *newstr;
 unsigned int i = 0;
+if (s1 == NULL)
+s1  "";
+if (s2 == NULL)
+s1 = "";
 for (str_len1 = 0; s1[str_len1] != '\0'; str_len1++)
 for (str_len2 = 0; s2[str_len2] != '\0'; str_len2++)
 new_len = str_len1 + str_len2;
-newstr = malloc((new_len + 1) * sizeof(char));
+newstr = malloc((new_len + 3) * sizeof(char));
 if (newstr == NULL)
 return (NULL);
-while (newstr == NULL)
-newstr = "";
 for (i = 0; i < str_len1; i++)
 newstr[i] = s1[i];
 for (i = 0; i < str_len2; i++)
