@@ -1,0 +1,10 @@
+e Edit Options Buffers Tools C Help                                                                                  
+  1 #include <stdio.h>
+  2 #include <stdlib.h>
+  3 #include "main.h"
+  4 
+  5 /**                                                                                                                 
+  6  * create_array - creates an array of chars                                                                         
+  7  * @size: size allocated to memory to store the arrays                                                              
+  8  * @c: character                                                                                                    
+  9  * Return: 0                                                                                                   10  */
