@@ -20,5 +20,6 @@ if (str == NULL)
 return (0);
 for (l = 0; new[l] != '\0'; l++)
 str[l] = new[l];
+new[l] = '\0';
 return (new);
 }
