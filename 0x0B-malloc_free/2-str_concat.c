@@ -17,7 +17,7 @@ unsigned int new_len = 0;
 char *newstr;
 unsigned int i = 0;
 if (s1 == NULL)
-s1  "";
+s1 = "";
 if (s2 == NULL)
 s1 = "";
 for (str_len1 = 0; s1[str_len1] != '\0'; str_len1++)
