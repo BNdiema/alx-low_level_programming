@@ -18,8 +18,12 @@ if (s1 == NULL)
 return ("");
 if (s2 == NULL)
 return ("");
-int strlen1 = strlen(s1);
-int strlen2 = strlen(s2);
+unsigned int strlen1 = 0;
+unsigned int strlen2 = 0;
+while (s1[strlen1]);
+strlen1++;
+while (s2[strlen2]);
+strlen2++;
 if (n >= strlen2)
 n = strlen2;
 int newlen = strlen1 + n;
