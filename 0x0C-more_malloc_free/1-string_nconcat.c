@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-#include <string.h> 
+#include <string.h>
+
 /**
  * string_nconcat - concatenates two strings.
  * @s1: pointer
@@ -23,7 +24,7 @@ int strlen1 = strlen(s1);
 int strlen2 = strlen(s2);
 if (n >= strlen2)
 n = strlen2;
-int newlen = strlen1 + n; 
+int newlen = strlen1 + n;
 s3 = malloc(newlen * sizeof(char) + 1);
 if (s3 == NULL)
 return (NULL);
