@@ -19,9 +19,9 @@ if (s2 == NULL)
 return ("");
 unsigned int strlen1 = 0;
 unsigned int strlen2 = 0;
-while (s1[strlen1]);
+while (s1[strlen1])
 strlen1++;
-while (s2[strlen2]);
+while (s2[strlen2])
 strlen2++;
 if (n >= strlen2)
 n = strlen2;
