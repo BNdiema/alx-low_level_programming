@@ -14,8 +14,6 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *s3;
-if (s3 == NULL)
-return (NULL);
 if (s1 == NULL)
 return ("");
 if (s2 == NULL)
