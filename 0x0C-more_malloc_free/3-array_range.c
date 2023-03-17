@@ -16,12 +16,11 @@ int i;
 int size;
 if (min > max)
 return (NULL);
-size = (max - min);
-arry = malloc((size + sizeof(int)) * sizeof(int));
+size = (max - min) + 1;
+arry = malloc((size + 1) * sizeof(int));
 if (arry == NULL)
 return (NULL);
-for (i = min; i <= max; i++)
-arry[i] = min;
-min++;
+for (i = 0; i <= max - min; i++)
+arry[i] = min + i;
 return (arry);
 }
