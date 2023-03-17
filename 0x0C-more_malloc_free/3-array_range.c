@@ -16,7 +16,7 @@ int i;
 int size;
 if (min > max)
 return (NULL);
-size = (max - min) + 1;
+size = (max - min);
 arry = malloc((size + 1) * sizeof(int));
 if (arry == NULL)
 return (NULL);
