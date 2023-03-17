@@ -35,6 +35,6 @@ for (i = 0; i < strlen1; i++)
 s3[i] = s1[i];
 for (i = 0; i < n; i++)
 s3[i + strlen1] = s2[i];
-s3[newlen] = '\0';
+s3[newlen - 1] = '\0';
 return (s3);
 }
