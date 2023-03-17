@@ -14,7 +14,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *mem;
 unsigned int hm = 0;
-int i = 0;
+unsigned int i = 0;
 if (nmemb == 0)
 return (NULL);
 if (size == 0)
