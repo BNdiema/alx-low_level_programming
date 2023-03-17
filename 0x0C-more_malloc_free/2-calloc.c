@@ -25,5 +25,5 @@ if (mem == NULL)
 return (NULL);
 for (i = 0; i < hm; i++)
 mem[hm] = 0;
-return (0);
+return (mem);
 }
