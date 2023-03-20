@@ -1,0 +1,6 @@
+#ifndef MACRO_PI
+#define MACRO_PI
+
+PI  (3.14159265359)
+
+#endif
