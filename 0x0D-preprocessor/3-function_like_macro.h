@@ -1,0 +1,14 @@
+#ifndef FUNCTION_LIKE_MACRO
+#define FUNCTION_LIKE_MACRO
+
+/**
+ * main - Computes
+ * @x: Number
+ * ABS(x): macros that computs
+ * Return: 0
+ */
+
+#define ABS(x) ((x) < 0 ? -(x) : (x))
+
+
+#endif
