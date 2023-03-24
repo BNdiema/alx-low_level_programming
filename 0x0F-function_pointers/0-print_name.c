@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "function_pointers.h"
+
+/**
+ * print_name - prints a name as is
+ * @name: pointer to name
+ * @f: pointer
+ * @char: character pointer
+ * Return: Nothing.
+ */
+
+void print_name(char *name, void (*f)(char *))
+{
+int i = 0;
+while (name[i] != '\0')
+{
+f(&name[i]);
+return;
+}
+}
