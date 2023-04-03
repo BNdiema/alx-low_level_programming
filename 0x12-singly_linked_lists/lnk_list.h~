@@ -1,0 +1,25 @@
+#ifndef LNK_LIST_H
+#define LNK_LIST_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <strinh.h>
+
+/**
+ * struct lnk_list -singly linked list
+ * @str: size of data type to be allocated by malloc
+ * @str_len: lenth of string
+ * @next_node: address pointer to the next node
+ * Description : siingly linked list node tamplate description
+ */
+
+typedef struct lnk_list
+{
+  char *str;
+  unsigned int str_len;
+  struct lnk_list *next;
+}list_t;
+
+size_t print_list(const list_t *h);
+
+#endif

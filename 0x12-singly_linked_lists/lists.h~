@@ -1,0 +1,26 @@
+#ifndef LNK_LIST_H
+#define LNK_LIST_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <strinh.h>
+
+/**
+ * struct lnk_list -singly linked list
+ * @str: (malloc'ed string)
+ * @len: lenth of the string
+ * @next:points to next node
+ * 
+ *Description : siingly linked list node structure
+ */
+
+typedef struct lnk_list
+{
+  char *str;
+  unsigned int len;
+  struct list_s *next;
+}list_t;
+
+size_t print_list(const list_t *h);
+
+#endif
