@@ -7,13 +7,14 @@
  *@h: pointer to alist
  *Return: number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
 size_t i;
 i = 0;
 if ((*h).str == NULL)
 {
-printf("[0] (nill)");
+printf("[0] (nil)");
 }
 while (h != NULL)
 {
