@@ -6,7 +6,7 @@
 #include <string.h>
 
 /**
- * struct lnk_list -singly linked list
+ * struct list_s -singly linked list
  * @str: (malloc'ed string)
  * @len: lenth of the string
  * @next:points to next node
@@ -14,7 +14,7 @@
  *Description : siingly linked list node structure
  */
 
-typedef struct lnk_list
+typedef struct list_s
 {
   char *str;
   unsigned int len;

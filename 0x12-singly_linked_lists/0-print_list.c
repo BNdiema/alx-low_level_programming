@@ -15,8 +15,11 @@ if ((*h).str == NULL)
 {
 printf("[0] (nill)");
 }
-while ((*h).str != NULL)
-printf("%s", h->str);
+while (h != NULL)
+{
+printf("[%d] %s\n", h->len, h->str);
+h = h->next;
 i++;
+}
 return (i);
 }
