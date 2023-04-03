@@ -38,9 +38,8 @@ break;
 default:
 break;
 }
-if (format[i + 1] && (format[i] == 'c' || format[i] == 'i'))
-printf(", ");
-if (format[i + 1] && (format[i] == 'f' || format[i] == 's'))
+if (format[i + 1] && (format[i] == 'c' || format[i] == 'i' ||
+		      format[i] == 'f' || format[i] == 's'))
 {
 printf(", ");
 }
