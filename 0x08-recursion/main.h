@@ -14,4 +14,5 @@ int is_palindrome(char *s);
 int check(char *s, int start, int end, int pair);
 int last_index(char *s);
 
+  
 #endif
