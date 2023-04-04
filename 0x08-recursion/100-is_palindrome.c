@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * check -checker for palindome
+ * check - checker for palindome
  * @s: string
  * @start: int moves from right to left
  * @end: int move from left to right
  * @pair: int
- * Return 0 or 1
+ * Return: 0 or 1
  */
 
-int check (char *s, int start, int end, int pair)
+int check(char *s, int start, int end, int pair)
 {
 if ((start == end && pair != 0) || (start == end + 1 && pair == 0))
 return (1);
 else if (s[start] != s[end])
 return (0);
 else
-return(check(s, start +1, end - 1, pair));
+return (check(s, start + 1, end - 1, pair));
 }
 
 /**
