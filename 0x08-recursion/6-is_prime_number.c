@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_check - checks if n is prime
+ * is_prime_number - checks if n is prime
  *
  * @n: integer
  *
@@ -15,16 +15,10 @@ if (n <= 1)
 {
 return (0);
 }
-else if (i * i > 2)
+for (i = 2; i < n; i++)
 {
-return (1);
-}
-else if (n % i == 0)
-{
+if (n % i == 0)
 return (0);
 }
-else
-{
-return (is_prime_number(2, n));
-}
+return (1);
 }
