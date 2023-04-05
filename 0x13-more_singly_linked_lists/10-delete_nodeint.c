@@ -14,7 +14,7 @@ listint_t *prv_node;
 listint_t *new_node;
 unsigned int i;
 
-if (new_node == NULL)
+if (head == NULL)
 return (-1);
 
 if (index == 0)
