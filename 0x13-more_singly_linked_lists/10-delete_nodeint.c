@@ -32,11 +32,12 @@ for (i = 0; i < (index - 1); i++)
 {
 prv_node = new_node;
 new_node = new_node->next;
-}
+
 if (new_node->next == NULL)
 return (-1);
-
+}
 prv_node->next = new_node->next;
+ 
 free(new_node);
 
 return (1);
