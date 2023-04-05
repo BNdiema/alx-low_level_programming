@@ -29,7 +29,7 @@ return (1);
 prv_node = *head;
 new_node = (*head)->next;
 
-for (i = 1; new_node != NULL && i < index; i++)
+for (i = 0; new_node != NULL && i < index; i++)
 {
 prv_node = new_node;
 new_node = new_node->next;
