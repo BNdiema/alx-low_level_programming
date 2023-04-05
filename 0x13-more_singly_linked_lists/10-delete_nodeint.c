@@ -14,7 +14,7 @@ listint_t *prv_node;
 listint_t *new_node;
 unsigned int i;
 
-if (head == NULL || *head == NULL)
+if (new_node == NULL)
 return (-1);
 
 if (index == 0)
@@ -37,7 +37,6 @@ if (new_node->next == NULL)
 return (-1);
 }
 prv_node->next = new_node->next;
- 
 free(new_node);
 
 return (1);
