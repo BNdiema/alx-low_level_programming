@@ -28,12 +28,12 @@ return (1);
 prv_node = *head;
 new_node = (*head)->next;
 
-for (i = 0; node != NULL && i < index; i++)
+for (i = 0; i < (index - 1); i++)
 {
 prv_node = new_node;
 new_node = new_node->next;
 }
-if (node == NULL)
+if (new_node->next == NULL)
 return (-1);
 
 prv_node->next = new_node->next;
