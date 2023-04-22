@@ -11,7 +11,7 @@ void print_opcodes(char *p, int n)
 int i;
 for (i = 0; i < n; i++)
 {
-printf("%.2hhhx", p[i]);
+printf("%.2hhx", p[i]);
 if (i < n - 1)
 printf(" ");
 }
