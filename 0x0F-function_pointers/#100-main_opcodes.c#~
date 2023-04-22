@@ -2,20 +2,23 @@
 #include <stdlib.h>
 /**
  * print_opcodes - print the opcodes
- * @p: address of the main function
+ * @a: address of the main function
  * @n: number of bytes to print
  * Return: void
  */
 void print_opcodes(char *p, int n)
 {
-int i;
-unsigned char *opcodes;
-for (i = 0; i < n; i++)
-{
-printf("%02x", opcodes[i]);
+  int i;
+
+  for (i = 0; i < n; i++)
+
 }
-printf("\n");
-}
+
+
+
+
+
+
 
 
 /**
@@ -29,7 +32,8 @@ printf("\n");
 int main(int argc, char **argv)
 {
 int bytes;
-int n;
+int i;
+unsigned char *opcodes;
 if (argc != 2)
 {
 printf("Error\n");
