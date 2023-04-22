@@ -9,10 +9,11 @@
 void print_opcodes(char *p, int n)
 {
 int i;
-unsigned char *opcodes;
 for (i = 0; i < n; i++)
 {
-printf("%02x", opcodes[i]);
+printf("%.2hhhx", p[i]);
+if (i < n - 1)
+printf(" ");
 }
 printf("\n");
 }
