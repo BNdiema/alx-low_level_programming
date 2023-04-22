@@ -30,7 +30,6 @@ printf("\n");
 int main(int argc, char **argv)
 {
 int bytes;
-int n;
 if (argc != 2)
 {
 printf("Error\n");
@@ -42,6 +41,6 @@ if (bytes < 0)
 printf("Error\n");
 return (2);
 }
-print_opcodes((char *)&main, n);
+print_opcodes((char *)&main, bytes);
 return (0);
 }
