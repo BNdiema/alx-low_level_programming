@@ -12,7 +12,7 @@ int i;
 unsigned char *opcodes;
 for (i = 0; i < n; i++)
 {
-printf("%02x", opcodes[i]);
+printf("% .02x", opcodes[i]);
 }
 printf("\n");
 }
