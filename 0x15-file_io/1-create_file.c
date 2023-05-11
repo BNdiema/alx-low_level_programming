@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 /**
  * create_file - creates a file
@@ -16,6 +17,12 @@ size_t content_lenth;
 ssize_t written_bytes;
 content_lenth = 0;
 
+if (text_content != NULL)
+{
+while (text_content[content_lenth] != '\0')
+content_lenth++;
+}
+
 file = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 if (file == -1)
 return (-1);
@@ -23,9 +30,9 @@ return (-1);
 if (filename == NULL)
 return (-1);
 
-if (text_content != NULL)
+if (text_content != NULL && content_lenth > 0)
 {
-written_bytes = write(file, text_content, strlen(content_lenth));
+written_bytes = write(file, text_content, content_lenth);
 if (written_bytes == -1)
 {
 close(file);
