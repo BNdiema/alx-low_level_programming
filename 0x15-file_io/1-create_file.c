@@ -23,9 +23,9 @@ return (-1);
 if (filename == NULL)
 return (-1);
 
-if (text_content != NULL && content_lenth > 0)
+if (text_content != NULL)
 {
-written_bytes = write(file, text_content, content_lenth);
+written_bytes = write(file, text_content, sterlen(content_lenth));
 if (written_bytes == -1)
 {
 close(file);
