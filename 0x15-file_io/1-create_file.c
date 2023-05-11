@@ -25,7 +25,7 @@ return (-1);
 
 if (text_content != NULL)
 {
-written_bytes = write(file, text_content, sterlen(content_lenth));
+written_bytes = write(file, text_content, strlen(content_lenth));
 if (written_bytes == -1)
 {
 close(file);
